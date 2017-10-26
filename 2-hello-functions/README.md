@@ -150,6 +150,8 @@ In our workshop, we're building a service called "squirebot". The idea behind th
 
 Let's change our function a bit to instead return some ASCII art. You can read through the code, but essentially we have two different templates for long and short lances and we just do a simple find and replace depending on which letters we want it to be made of.
 
+Edit index.js file: 
+
 ```javascript
 module.exports = function (context, req) {
     context.log('JavaScript HTTP trigger function processed a request.');
